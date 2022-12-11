@@ -1,0 +1,83 @@
+#content {
+    text-align: center;
+    width:90%;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 14px;
+}
+
+#info p{
+    padding-bottom: 30px;
+}
+
+#basic p{
+    padding-bottom: 30px;
+}
+
+#exchange p{
+    padding-bottom: 30px;
+}
+
+#trade h3{
+    margin-bottom: 10px;
+}
+
+#trade ul{
+    width:fit-content;
+    margin-left: 39%;
+    padding: 0
+}
+
+#trade P{
+    padding-bottom: 30px;
+}
+
+#packing h2{
+    margin-bottom:35px;
+}
+
+#packing h3{
+    margin-bottom:0;
+}
+
+#packing p{
+    margin-top:5px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+
+#read_mark {
+    width:30px;
+    aspect-ratio: 1;
+    margin: 40px 0;
+}
+
+.off_message{
+    display: none;
+}
+
+
+.last{
+    margin: 50px 0 ;
+}
+
+#love_mark {
+    width:20px;
+    aspect-ratio: 1;
+}
+
+.like {
+    padding: 0;
+    list-style: none;
+    margin: 5px auto 20px auto;
+}
+
+
+*{
+    font-family: 'Kiwi Maru', serif;
+    background-color: #fff9ff;
+    color: #616161;
+}
