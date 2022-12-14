@@ -1,3 +1,11 @@
+body{
+    font-family: 'Kiwi Maru', serif;
+    background-color: #fff9ff;
+    color: #616161;
+    margin:0;
+    padding: 0;
+}
+
 #content {
     text-align: center;
     width:90%;
@@ -8,60 +16,149 @@ p{
     font-size: 14px;
 }
 
-#info p{
-    padding-bottom: 30px;
+#info{
+    margin: 50px 0;
 }
 
-#basic p{
-    padding-bottom: 30px;
+#basic{
+    background-color: #f4f4f1;
+    padding: 30px 0;
+    border-radius: 15px;
+    margin: 50px 0;
+}
+
+#basic h2{
+    margin-top: 0;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width:auto;
+    margin-bottom: 0;
+}
+
+#menu li {
+    padding: 0 5%;
+    font-size: 1.5em;
+    font-weight: bold;
+    flex-grow: 1;
+    border-radius: 15px 15px 0 0;
+}
+
+.menu_exchange{
+    background-color:#ffc6e2;
+}
+
+.menu_trade{
+    background-color: #e2c6ff;
+}
+
+.menu_packing{
+    background-color:#c6e2ff;
+}
+
+
+#exchange{
+    background-color:#ffeaf4;
+    border-radius: 0 0 15px 15px;
+    border:solid #ffc6e2;
+    border-top: none;
 }
 
 #exchange p{
-    padding-bottom: 30px;
+    padding: 30px 0;
+    margin: 0;
+    border-radius: 0 0 15px 15px;
 }
 
-#trade h3{
-    margin-bottom: 10px;
+#trade{
+    background-color:#f4eaff;
+    border-radius: 0 0 15px 15px;
+    border:solid #e2c6ff;
+    border-top: none;
+}
+
+#trade h3 {
+    margin: 0;
+    padding: 18px 0 10px 0;
 }
 
 #trade ul{
     width:fit-content;
-    margin-left: 39%;
-    padding: 0
+    padding: 0;
+    list-style:none;
+    margin:auto;
 }
 
-#trade P{
-    padding-bottom: 30px;
+#trade p{
+    padding: 30px 0;
+    margin: 0;
+    border-radius: 0 0 15px 15px;
 }
 
-#packing h2{
-    margin-bottom:35px;
+#packing{
+    background-color:#eaf4ff;
+    border-radius: 0 0 15px 15px;
+    border:solid #c6e2ff;
+    border-top: none;
 }
 
-#packing h3{
-    margin-bottom:0;
+.puchi h3{
+    margin:0;
+    padding-top: 30px;
 }
 
-#packing p{
-    margin-top:5px;
-    padding-bottom: 30px;
-    margin-bottom: 0;
+.puchi p {
+    margin: 10px;
+}
+
+.paper h3{
+    margin: 20px 0 0 0;
+}
+
+.paper p{
+    margin: 10px;
+}
+
+.pack_msg {
+    padding: 30px 0;
+    margin: 0;
+    border-radius: 0 0 15px 15px;
 }
 
 
 #read_mark {
     width:30px;
     aspect-ratio: 1;
-    margin: 40px 0;
+    margin-top: 80px ;
 }
 
-.off_message{
+.display_off{
     display: none;
+}
+
+.display_on{
+    display: block;
 }
 
 
 .last{
-    margin: 50px 0 ;
+    margin-top:80px ;
+}
+
+#my_prof{
+    margin:60px 0;
+}
+
+#favorite{
+    padding: 20px 0;
+    border: dashed rgba(223,86,86);
+    border-width: thick;
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
 }
 
 #love_mark {
@@ -72,12 +169,9 @@ p{
 .like {
     padding: 0;
     list-style: none;
-    margin: 5px auto 20px auto;
+    margin: 5px auto;
 }
 
-
-*{
-    font-family: 'Kiwi Maru', serif;
-    background-color: #fff9ff;
-    color: #616161;
+#other{
+    margin-top: 50px;
 }

@@ -44,72 +44,82 @@
             </p>
         </div>
 
-        <div id="exchange">
-            <h2>交換</h2>
-            <p>
-                お声掛けいただく際またはDM移行後、IDつきの<br>
-                お品物のお写真の送付をお願いいたします。<br><br>
-
-                こちらからの同日発送の希望は特にございませんが、<br>
-                発送日のズレはなるべく3日以内に<br>
-                していただけますと幸いです。<br>
-                ご都合などで3日以上開いてしまう場合は<br>
-                ご相談ください。<br><br>
-
-                お相手様から同日発送の要望がありましたら
-                できる限り対応いたします。<br>
-            </p>
-        </div>
-
-        <div id="trade">
-            <h2>譲渡</h2>
-            <h3>対応金融機関等</h3>
+        <div id="menu">
             <ul>
-                <li>ゆうちょ銀行</li>
-                <li>みずほ銀行</li>
-                <li>メルペイ送金</li>
-                <li>PayPay送金</li>
+                <li class="menu_exchange">交換</li>
+                <li class="menu_trade">譲渡</li>
+                <li class="menu_packing">梱包・発送</li>
             </ul>
-            <p>
-                特にご申告のない場合は、<br>
-                ゆうちょ銀行口座にお振込みいただきます。<br><br>
-                手数料上乗せにて、<br>
-                メルカリでのお取引も対応いたします。
-            </p>
         </div>
 
-        <div id="packing">
-            <h2>梱包・発送</h2>
-            <div class="puchi">
-                <h3>
-                    缶バッジ・ラバスト・アクキー
-                </h3>
+        <div id="menu_select">
+            <div id="exchange">
                 <p>
-                    プチプチ2周+濡れ防止OPP袋
-                </p>
-            </div>
-            <div class="paper">
-                <h3>
-                    紙類
-                </h3>
-                <p>
-                    両面段ボール補強+濡れ防止OPP袋
-                </p>
-            </div>
-            <p>
-                いずれも普通郵便で窓口より発送します。<br>
-                厚さや重さなどは、自宅のスケールでも確認しますが<br>
-                100円以上の差額が出る場合のみ返金対応します。<br><br>
+                    お声掛けいただく際またはDM移行後、<br>
+                    IDつきのお写真の送付をお願いいたします。<br><br>
 
-                A4サイズを超える大きなお品物や、<br>
-                厚みが3cmを超えるお品物については<br>
-                個別にご相談させていただきます。
-            </p>
+                    同日発送の希望は特にございませんが、<br>
+                    発送日のズレはなるべく3日以内に<br>
+                    していただけますと幸いです。<br>
+                    ご都合などで3日以上開いてしまう場合は<br>
+                    ご相談ください。<br><br>
+
+                    お相手様から同日発送の要望がありましたら<br>
+                    できる限り対応いたします。<br>
+                </p>
+            </div>
+
+            <div id="trade" class="display_off">
+                <h3>対応金融機関等</h3>
+                <ul>
+                    <li>ゆうちょ銀行</li>
+                    <li>みずほ銀行</li>
+                    <li>メルペイ送金</li>
+                    <li>PayPay送金</li>
+                </ul>
+                <p>
+                    こちらがお譲りの際、特にご申告のない場合は<br>
+                    ゆうちょ銀行口座にお振込みいただきます。<br>
+                    ゆうちょ銀行以外の方法をご希望の場合は、<br><br>
+                    一言いただけますと幸いです。<br><br>
+                    手数料上乗せにて、<br>
+                    メルカリでのお取引も対応いたします。
+                </p>
+            </div>
+
+            <div id="packing" class="display_off">
+                <div class="puchi">
+                    <h3>
+                        缶バッジ・ラバスト・アクキー
+                    </h3>
+                    <p>
+                        プチプチ2周+濡れ防止OPP袋
+                    </p>
+                </div>
+                <div class="paper">
+                    <h3>
+                        紙類
+                    </h3>
+                    <p>
+                        両面段ボール補強+濡れ防止OPP袋
+                    </p>
+                </div>
+                <p class="pack_msg">
+                    いずれも普通郵便で窓口より発送します。<br>
+                    自宅のスケールでも確認しますが<br>
+                    発送にあたり100円以上の差額が出る場合は<br>
+                    返金対応いたします。<br><br>
+
+                    A4サイズを超える大きなお品物や、<br>
+                    厚みが3cmを超えるお品物については<br>
+                    個別にご相談させていただきます。
+                </p>
+            </div>
         </div>
 
         <img src="flower.png" alt="花のマーク" id="read_mark">
 
-        <div id="message" class="off_message">
+        <div id="message" class="display_off">
             <p>
                 ここまでお読みいただきありがとうございます。<br>
                 お手数をおかけしますが、お声掛けいただく際は<br>
@@ -126,7 +136,7 @@
             <h2>私について</h2>
 
             <div id="favorite">
-                <img src="love.png" alt="ハート" id="love_mark">
+                <img src="love.png" alt="手の上にハート" id="love_mark">
                 <ul class="like">
                     <li>テニスの王子様 幸村精市</li>
                     <li>ハロー！プロジェクト</li>
@@ -149,11 +159,25 @@
                 </p>
             </div>
         </div>
-
     </div>
     <script>
         $("#read_mark").on("click",function(){
-            $("#message").removeClass("off_message");
+            $("#message").removeClass("display_off");
+        });
+
+        $(".menu_trade").on("click",function(){
+            $("#trade").removeClass("display_off")
+            $("#exchange , #packing").addClass("display_off");
+        });
+
+        $(".menu_exchange").on("click",function(){
+            $("#exchange").removeClass("display_off")
+            $("#trade , #packing").addClass("display_off");
+        });
+
+        $(".menu_packing").on("click",function(){
+            $("#packing").removeClass("display_off")
+            $("#exchange , #trade").addClass("display_off");
         });
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
